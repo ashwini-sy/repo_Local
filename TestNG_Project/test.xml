@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  with only @test tag-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+<!--  <parameter name="username" value="abdc123@x.com"/>
+<parameter name="password" value="abdc123"/> -->
+  <test  name="Test" >
+    <classes>
+  <!--     <class name="test.FBLogin"/> -->
+      <class name="swagtest.swagTest"/>
+     <!--  <class name="test.testcase2"/>
+      <class name="test.TestcaseSceanrio1"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
