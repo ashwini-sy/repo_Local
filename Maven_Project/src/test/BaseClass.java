@@ -44,7 +44,7 @@ public class BaseClass  {
 		driver.close();
 		report.endTest(test);
 		report.flush();
-		driver.close();
+		
 	}
 	
 
